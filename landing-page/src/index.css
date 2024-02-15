@@ -8,6 +8,26 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',monospace;
+}
+
+.my-custom-button {
+  background-color: #7F56D9;
+  border-color: #7F56D9;
+  padding: 8px 14px;
+  top: 16px;
+  left: 16px;
+  border-radius: 8px;
+  color: #FFFFFF;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 600;
+  line-height: 20px;
+  font-family: "SemiBold";
+}
+
+@font-face {
+  font-family: "SemiBold";   /*Can be any text*/
+  src: local("Inter-SemiBold"),
+    url("./font/Inter-SemiBold.ttf") format("truetype");
 }
