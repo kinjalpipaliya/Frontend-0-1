@@ -18,6 +18,7 @@ code {
   top: 16px;
   left: 16px;
   border-radius: 8px;
+  border: 1px;
   color: #FFFFFF;
   font-size: 14px;
   text-decoration: none;
@@ -26,8 +27,34 @@ code {
   font-family: "SemiBold";
 }
 
+.my-custom-button:hover {
+  background-color: #6941C6;
+}
+
+.my-custom-button:focus:active {
+  background-color: #7F56D9;
+  box-shadow: 0px 0px 0px 4px #F4EBFF, 0px 1px 2px 0px #1018280D;
+}
+
+.my-custom-button-disabled {
+  background-color: #E9D7FE;
+  border-color: #E9D7FE;
+  padding: 8px 14px;
+  top: 16px;
+  left: 16px;
+  border-radius: 8px;
+  border: 1px;
+  color: #FFFFFF;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 600;
+  line-height: 20px;
+  font-family: "SemiBold";
+  box-shadow: 0px 1px 2px 0px #1018280D;
+}
+
 @font-face {
-  font-family: "SemiBold";   /*Can be any text*/
+  font-family: "SemiBold";
   src: local("Inter-SemiBold"),
     url("./font/Inter-SemiBold.ttf") format("truetype");
 }
