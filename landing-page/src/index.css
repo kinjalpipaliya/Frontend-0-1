@@ -26,17 +26,81 @@ code {
 }
 
 .btn-common {
+  display: inline-flex;
   padding: 8px 14px;
   margin-right: 10px;
-  top: 16px;
+  align-items: center;
+  /* top: 16px; */
   border: 1px;
-  left: 16px;
+  /* left: 16px; */
   border-radius: 8px;
   font-size: 14px;
   text-decoration: none;
   font-weight: 600;
   line-height: 20px;
   font-family: "SemiBold";
+}
+
+.btn-common-black {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #171717;
+  color: #FFFFFF;
+  /* padding: 2px 2px; */
+  /* margin-right: 10px; */
+  height: 30px;
+  width: 130px;
+  align-items: center;
+  border: 1px;
+  border-radius: 2px;
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: 600;
+  line-height: 20px;
+  font-family: "SemiBold";
+  position: absolute;
+}
+
+.btnIconBox {
+  display: flex;
+  /* padding: 8px 8px; */
+  margin-left: 1.2px;
+  height: 28px;
+  width: 25%;
+  background-color: #FFFFFF;
+  border-radius: 1px;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.icon {
+  height: auto;
+  width: auto;
+}
+
+.btnTextBox {
+  /* padding: 6px 8px; */
+  display: flex;
+  height: 28px;
+  width: 75%;
+  background-color: #000000;
+  justify-content: center;
+  z-index: 0;
+  font-size: 10px;
+  align-items: center;
+}
+
+.btnIconBox:hover { 
+  width: 98.5%;
+  position: absolute;
+  transition: transform 0.3s ease;
+  margin-left: 1.2px;
+  margin-right: 1.2px;
+}
+
+.btnIconBox:hover .icon { 
+  transform: rotate(45deg);
 }
 
 /* primary button */
@@ -210,7 +274,7 @@ code {
   background-color: #161A22;
   border-radius: 12px;
   color: #FFFFFF;
-  padding: 12px 20px;
+  padding: 8px 14px;
   margin-right: 10px;
   font-size: 20px;
   text-decoration: none;
@@ -229,8 +293,7 @@ code {
   background-clip: text;
 }
 
-
-/* primary button with icon */
+/* primary button with icon before and after */
 
 .button-primary-icon {
   background-color: #7F56D9;
@@ -256,6 +319,35 @@ code {
   cursor:not-allowed;
 }
 
+.icon-right {
+  height: 20px;
+  width: 20px;
+  margin-left: 9px;
+}
+
+/* button icon */
+
+.button-icon {
+  background-color: #7F56D9;
+  box-shadow: 0px 1px 2px 0px hsla(220, 43%, 11%, 0.051);
+  color: #FFFFFF;
+  border-color: #7F56D9;
+  padding: 10px;
+}
+
+.iconOnly {
+  height: 16px;
+  width: 16px;
+}
+
+/* Button Group */
+.buttonGroup {
+  background-color: #FFFFFF;
+  box-shadow: 0px 1px 2px 0px #1018280D;
+  border: 1px solid #D0D5DD;
+  color: #344054;
+  text-decoration: none;
+}
 
 @font-face {
   font-family: "SemiBold";

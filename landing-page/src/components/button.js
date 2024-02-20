@@ -10,15 +10,14 @@ function Button() {
     <body class = "top-container">
       <div class="container">
         <div class="flex text-center">
-        <a href="#0" class={(!myInput ? 'btn-common button-primary-disabled' : 'btn-common button-primary')}>Button CTA</a>
-        <a href="#0" class={(!myInput ? 'btn-common button-secondary-disabled' : 'btn-common button-secondary')}>Button CTA</a>
-        <a href="#0" class={(!myInput ? 'btn-common button-secondary-grey-disabled' : 'btn-common button-secondary-grey')}>Button CTA</a>        
-        <a href="#0" class={(!myInput ? 'btn-common button-tertiary-disabled' : 'btn-common button-tertiary')}>Button CTA</a>        
-        <a href="#0" class={(!myInput ? 'btn-common button-link-disabled' : 'btn-common button-link')}>Button CTA</a>        
-        <a href="#0" class={(!myInput ? 'btn-common button-link-grey-disabled' : 'btn-common button-link-grey')}>Button CTA</a>      
-        {/* <a href="#0" class={(!myInput ? 'btn-common button-link-grey-disabled' : 'btn-common button-link-grey')}>Button CTA</a>   */}
-        <a href="#0" class = 'button-primary-icon'>Button CTA</a>  
-        {/* <a href="#0" class='buttonBlack'>Try For Free</a> */}
+            {/* <a href="#0" class='buttonBlack'>Try For Free</a> */}
+            <a href="#0" class={(!myInput ? 'btn-common button-primary-disabled' : 'btn-common button-primary')}>Button CTA</a>
+            <a href="#0" class={(!myInput ? 'btn-common button-secondary-disabled' : 'btn-common button-secondary')}>Button CTA</a>
+            <a href="#0" class={(!myInput ? 'btn-common button-secondary-grey-disabled' : 'btn-common button-secondary-grey')}>Button CTA</a>        
+            <a href="#0" class={(!myInput ? 'btn-common button-tertiary-disabled' : 'btn-common button-tertiary')}>Button CTA</a>        
+            <a href="#0" class={(!myInput ? 'btn-common button-link-disabled' : 'btn-common button-link')}>Button CTA</a>       
+            <a href="#0" class={(!myInput ? 'btn-common button-link-grey-disabled' : 'btn-common button-link-grey')}>Button CTA</a>      
+            <a href="#0" class={(!myInput ? 'btn-common button-link-grey-disabled' : 'btn-common button-link-grey')}>Button CTA</a>  
         </div>
       </div>
     </body>
